@@ -29,3 +29,25 @@ type "./PicBackup.sh"
 Email link sent to partner 10/4 1:11 PM.
 
 # Code Review (Blaine Beltran)
+### Comments:
+- The code looks very clean and organized. The identions are all the same throughout the 
+entire program.
+- I like how each section of the backup file is seperated with some space rather than it being 
+all jumbled together.
+- One suggestion is to try using another if/else to validate the user and that the home directory exists. If they
+do not, then print some error message.
+```bash
+#like so
+if [ -z $1 ]; then
+        user=$(whoami)
+else
+        if [ ! -d "/home/$1" ]; then
+                echo "Requested $1 user home directory doesn't exist."
+                exit 1
+        fi
+        user=$1
+fi
+
+```
+- finally, I did not see any loops within the code. Other than that the code looks
+clean and neat!
