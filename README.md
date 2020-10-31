@@ -27,3 +27,5 @@ Ensure you have a folder called tmp at the root of your C drive;
 type "./PicBackup.sh" 
 
 Email link sent to partner 10/4 1:11 PM.
+
+# Code Review (Blaine Beltran)
