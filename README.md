@@ -30,7 +30,7 @@ Email link sent to partner 10/4 1:11 PM.
 
 # Code Review (Blaine Beltran)
 ### Comments:
-- The code looks very clean and organized. The identions are all the same throughout the 
+- The code looks very clean and organized. The indentions are all the same throughout the 
 entire program.
 - I like how each section of the backup file is seperated with some space rather than it being 
 all jumbled together.
