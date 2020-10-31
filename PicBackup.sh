@@ -36,6 +36,11 @@ echo "Directories archived: $arch_directories"
 # This if/else (lines 39-44) is checking to see if the total number of source
 # files and the backup files are the same. If so, it will print 
 # out Backup completed!. If not, it will display backup failed!
+
+# One interesting thing is the use of the bracket.
+# Coming from python I am used to if/else without brackets.
+# Also the the of the equality symbols. Again in python I am 
+# used to see '==' not '-eq'
 if [ $src_files -eq $arch_files ]; then
         echo "Backup of $input completed!"
         echo "Details about the output backup file:"
